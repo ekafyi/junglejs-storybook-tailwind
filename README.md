@@ -1,3 +1,7 @@
+# JungleJS + Storybook + TailwindCSS starter site
+
+<img src="https://image.flaticon.com/icons/svg/2950/2950532.svg" width="120" height="120" alt="" />
+
 A starter site for:
 
 - [JungleJS](https://www.junglejs.org) — Svelte and GraphQL-based static site generator
@@ -87,7 +91,7 @@ More info:
 
 ## Credits
 
-Boilerplate code from [Jungle template](https://github.com/junglejs/template).
+Boilerplate code from [Jungle template](https://github.com/junglejs/template). Icon in this readme by [Freepik](http://www.freepik.com) from [Flaticon](https://www.flaticon.com).
 
 ---
 
