@@ -1,6 +1,6 @@
 # JungleJS + Storybook + TailwindCSS starter site
 
-<img src="https://image.flaticon.com/icons/svg/2950/2950532.svg" width="120" height="120" alt="" />
+<p align="center"><img src="https://image.flaticon.com/icons/svg/2950/2950532.svg" width="120" height="120" alt="" /></p>
 
 A starter site for:
 
