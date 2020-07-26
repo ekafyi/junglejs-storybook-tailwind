@@ -1,14 +1,21 @@
 {
-  "name": "jungle-app",
-  "version": "1.0.0",
+  "name": "junglejs-storybook-tailwind",
+  "version": "0.0.1",
+  "description": "Starter site for JungleJS (Svelte Jamstack framework) with Storybook and TailwindCSS",
+  "author": "ekafyi",
+  "license": "MIT",
+  "repository": "https://github.com/ekafyi/junglejs-storybook-tailwind",
   "scripts": {
-    "start": "node app.js",
-    "build": "node build.js",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "start": "node app.js & npm run dev:css",
+    "build": "node build.js && npm run build:css",
+    "dev:css": "postcss src/tailwind.css -o static/tailwind.css --watch",
+    "build:css": "cross-env NODE_ENV=production postcss src/tailwind.css -o static/tailwind.css",
+    "storybook": "start-storybook -s ./static -p 6006 & npm run dev:css",
+    "build-storybook": "build-storybook -s ./static && npm run build:css"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
+    "@fullhuman/postcss-purgecss": "^2.3.0",
     "@rollup/plugin-commonjs": "^12.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "@storybook/addon-a11y": "^5.3.19",
@@ -16,17 +23,28 @@
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^5.3.19",
     "@storybook/svelte": "^5.3.19",
+    "autoprefixer": "^9.8.5",
     "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.2",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.32",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-svelte-ssr": "^1.0.3",
     "rollup-plugin-terser": "^5.1.2",
     "svelte": "^3.24.0",
-    "svelte-loader": "^2.13.6"
+    "svelte-loader": "^2.13.6",
+    "tailwindcss": "^1.5.2"
   },
   "dependencies": {
     "express": "~4.16.1",
     "junglejs": "^1.1.1"
-  }
+  },
+  "keywords": [
+    "svelte",
+    "junglejs",
+    "storybook",
+    "tailwindcss"
+  ]
 }

@@ -8,7 +8,7 @@
 
 <Nav page="/"/>
 <main>
-	<h1>Welcome!</h1>
+	<h1 class="text-green-500 font-bold text-4xl md:text-6xl">Welcome!</h1>
 </main>
 
 <style>
@@ -17,13 +17,6 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
-	}
-
-	h1 {
-		color: #859A00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
 	}
 
 	@media (min-width: 640px) {

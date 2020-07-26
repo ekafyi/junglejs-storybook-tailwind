@@ -1,16 +1,13 @@
-<button class="button" on:click={onClick}>
+<button class="button py-1 px-3 font-semibold border-4 border-solid border-green-500" on:click={onClick}>
     {text}
 </button>
 
 <style>
     .button {
-      border: 1px solid #eee;
-      border-radius: 3px;
-      background-color: #FFFFFF;
+      -webkit-appearance: none;
+      background-color: #ffffff;
       cursor: pointer;
-      font-size: 15px;
-      padding: 3px 10px;
-      margin: 10px;
+      border-radius: 8px;
     }
 </style>
 
