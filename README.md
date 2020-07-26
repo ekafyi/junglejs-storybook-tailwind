@@ -66,7 +66,10 @@ More info: https://storybook.js.org/docs/configurations/add-custom-head-tags
 
 ## Tailwind
 
-This starter uses Tailwind with PostCSS on its own, NOT integrated to Storybook [custom webpack config](https://storybook.js.org/docs/configurations/custom-webpack-config/) nor to [Jungle config](https://github.com/ekafyi/junglejs-storybook-tailwind/blob/master/jungle.config.js). We simply run and watch for changes during development (`start` and `storybook` commands), and generate an optimized build version in `build` and `build-storybook`. Open `package.json` to see or modify the commands.
+This starter uses Tailwind with PostCSS on its own, NOT integrated to Storybook [custom webpack config](https://storybook.js.org/docs/configurations/custom-webpack-config/) nor to [Jungle config](https://github.com/ekafyi/junglejs-storybook-tailwind/blob/master/jungle.config.js). We simply run and watch for changes during development (`start` and `storybook` commands), and generate an optimized build version in `build` and `build-storybook`. 
+
+- To modify the postcss commands (including source and output files), open `package.json`.
+- To integrate Tailwind with Storybook, [refer to this discussion](https://github.com/storybookjs/storybook/issues/4038).
 
 **src/tailwind.css**
 
