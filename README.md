@@ -8,10 +8,18 @@ A starter site for:
 - [Storybook](https://storybook.js.org) — UI development environment
 - [TailwindCSS](https://tailwindcss.com) — utility-first CSS framework
 
+## with-async-data branch
+
+This branch provides example for asynchronous data fetching. [Read my post on DEV.](https://dev.to/ekafyi/get-asynchronous-data-in-junglejs-the-new-svelte-jamstack-library-1dkm)
+
+## One-click deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fekafyi%2Fjunglejs-storybook-tailwind%2Ftree%2Fwith-async-data)
+
 ## Installation
 
 ```bash
-git clone https://github.com/ekafyi/junglejs-storybook-tailwind.git
+git clone -b with-async-data https://github.com/ekafyi/junglejs-storybook-tailwind.git
 cd junglejs-storybook-tailwind
 
 # Install dependencies
@@ -92,9 +100,13 @@ More info:
 - https://tailwindcss.com/docs/configuration
 - https://tailwindcss.com/docs/controlling-file-size/
 
+## Branches
+
+- [with-async-data](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/with-async-data) 
+
 ## Credits
 
-Boilerplate code from [Jungle template](https://github.com/junglejs/template). Icon in this readme by [Freepik](http://www.freepik.com) from [Flaticon](https://www.flaticon.com).
+Boilerplate code from [Jungle template](https://github.com/junglejs/template). Repo icon/logo by [Freepik](http://www.freepik.com) from [Flaticon](https://www.flaticon.com).
 
 ---
 
