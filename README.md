@@ -8,6 +8,12 @@ A starter site for:
 - [Storybook](https://storybook.js.org) — UI development environment
 - [TailwindCSS](https://tailwindcss.com) — utility-first CSS framework
 
+## Branches
+
+- [master](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/master) — JungleJS + Storybook + Tailwind CSS
+- [with-async-data](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/with-async-data) — master + async data fetching example
+	- [Read my post on DEV](https://dev.to/ekafyi/get-asynchronous-data-in-junglejs-the-new-svelte-jamstack-library-1dkm)
+
 ## One-click deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fekafyi%2Fjunglejs-storybook-tailwind%2Ftree%2Fmaster) [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ekafyi/junglejs-storybook-tailwind)
@@ -95,10 +101,6 @@ More info:
 
 - https://tailwindcss.com/docs/configuration
 - https://tailwindcss.com/docs/controlling-file-size/
-
-## Branches
-
-- [with-async-data](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/with-async-data) 
 
 ## Credits
 
