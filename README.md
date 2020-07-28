@@ -8,9 +8,11 @@ A starter site for:
 - [Storybook](https://storybook.js.org) — UI development environment
 - [TailwindCSS](https://tailwindcss.com) — utility-first CSS framework
 
-## with-async-data branch
+## Branches
 
-This branch provides example for asynchronous data fetching. [Read my post on DEV.](https://dev.to/ekafyi/get-asynchronous-data-in-junglejs-the-new-svelte-jamstack-library-1dkm)
+- [master](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/master) — JungleJS + Storybook + Tailwind CSS
+- [with-async-data](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/with-async-data) — master + async data fetching example
+	- [Read my post on DEV](https://dev.to/ekafyi/get-asynchronous-data-in-junglejs-the-new-svelte-jamstack-library-1dkm)
 
 ## One-click deploy
 
@@ -98,11 +100,7 @@ Tailwind configuration file. The `purge` object defines what files are checked w
 More info:
 
 - https://tailwindcss.com/docs/configuration
-- https://tailwindcss.com/docs/controlling-file-size/
-
-## Branches
-
-- [with-async-data](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/with-async-data) 
+- https://tailwindcss.com/docs/controlling-file-si
 
 ## Credits
 
