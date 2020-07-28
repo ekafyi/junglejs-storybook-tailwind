@@ -7,7 +7,7 @@
   "repository": "https://github.com/ekafyi/junglejs-storybook-tailwind",
   "scripts": {
     "start": "node app.js & npm run dev:css",
-    "build": "node build.js && npm run build:css",
+    "build": "npm run build:css & node build.js",
     "dev:css": "postcss src/tailwind.css -o static/tailwind.css --watch",
     "build:css": "cross-env NODE_ENV=production postcss src/tailwind.css -o static/tailwind.css",
     "storybook": "start-storybook -s ./static -p 6006 & npm run dev:css",
