@@ -8,12 +8,14 @@ A starter site for:
 - [Storybook](https://storybook.js.org) — UI development environment
 - [TailwindCSS](https://tailwindcss.com) — utility-first CSS framework
 
+Read my introduction posts on DEV:
+- [JungleJS + Storybook + TailwindCSS starter](https://dev.to/ekafyi/junglejs-storybook-tailwindcss-starter-site-3dmf)
+- [Get asynchronous data in JungleJS, the new Svelte JAMstack library](https://dev.to/ekafyi/get-asynchronous-data-in-junglejs-the-new-svelte-jamstack-library-1dkm)
+
 ## Branches
 
 - [master](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/master) — JungleJS + Storybook + Tailwind CSS
-	- [Intro post on DEV](https://dev.to/ekafyi/junglejs-storybook-tailwindcss-starter-site-3dmf)
 - [with-async-data](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/with-async-data) — master + async data fetching example
-	- [Read my post on DEV](https://dev.to/ekafyi/get-asynchronous-data-in-junglejs-the-new-svelte-jamstack-library-1dkm)
 
 ## One-click deploy
 
