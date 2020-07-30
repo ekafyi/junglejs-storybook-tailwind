@@ -34,7 +34,7 @@
 	<section class="now-container grid">
 		<h2 class="now-title font-bold">now reading ↴</h2>
 		{#each QUERYRES.books as {authors, cover, subtitle, title, url}}
-			<article class="p:2 sm:p-6">
+			<article class="p-2 sm:p-6">
 				<img src={cover.medium} alt="" width="180" height="270" class="book-cover rounded-lg shadow-md w-full object-cover" />
 				<div class="mt-4">
 					<h3 class="font-bold text-md mb-1 leading-tight">{`${title}${subtitle ? `: ${subtitle}` : ''}`}</h3>
