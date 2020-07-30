@@ -11,16 +11,21 @@ A starter site for:
 ## Branches
 
 - [master](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/master) — JungleJS + Storybook + Tailwind CSS
-- [with-async-data](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/with-async-data) — master + async data fetching example
-	- [Read my post on DEV](https://dev.to/ekafyi/get-asynchronous-data-in-junglejs-the-new-svelte-jamstack-library-1dkm)
+- [with-async-data](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/with-async-data) — master + async data fetching example - [Read my post on DEV](https://dev.to/ekafyi/get-asynchronous-data-in-junglejs-the-new-svelte-jamstack-library-1dkm)
 
 ## One-click deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fekafyi%2Fjunglejs-storybook-tailwind%2Ftree%2Fwith-async-data)
 
-## Installation
+Or [create a new repo](https://github.com/ekafyi/junglejs-storybook-tailwind/generate) with Github template.
+
+## Install and develop
 
 ```bash
+# Install the global Netlify CLI package if you haven’t
+npm install netlify-cli -g
+
+# Clone and go to project directory
 git clone -b with-async-data https://github.com/ekafyi/junglejs-storybook-tailwind.git
 cd junglejs-storybook-tailwind
 
@@ -76,7 +81,7 @@ More info: https://storybook.js.org/docs/configurations/add-custom-head-tags
 
 ## Tailwind
 
-This starter uses Tailwind with PostCSS on its own, NOT integrated to Storybook [custom webpack config](https://storybook.js.org/docs/configurations/custom-webpack-config/) nor to [Jungle config](https://github.com/ekafyi/junglejs-storybook-tailwind/blob/master/jungle.config.js). We simply run and watch for changes during development (`start` and `storybook` commands), and generate an optimized build version in `build` and `build-storybook`. 
+This starter uses Tailwind with PostCSS on its own, NOT integrated to Storybook [custom webpack config](https://storybook.js.org/docs/configurations/custom-webpack-config/) nor to [Jungle config](https://github.com/ekafyi/junglejs-storybook-tailwind/blob/master/jungle.config.js). We simply run and watch for changes during development (`start` and `storybook` commands), and generate an optimized build version in `build` and `build-storybook`.
 
 - To modify the postcss commands (including source and output files), open `package.json`.
 - To integrate Tailwind with Storybook, [refer to this discussion](https://github.com/storybookjs/storybook/issues/4038).
@@ -101,6 +106,24 @@ More info:
 
 - https://tailwindcss.com/docs/configuration
 - https://tailwindcss.com/docs/controlling-file-si
+
+## Deploy
+
+Run `npm run build`.
+
+Your site is in the `jungle/build` directory, ready to publish anywhere that hosts static sites (Github Pages, Netlify, Vercel, any cPanel-based hosting).
+
+### Netlify CI/CD
+
+Deploy your project to a Github or GitLab repo.
+
+Run `netlify init` (or `ntl init` for short) to start the continuous deployment wizard. With this setup, Netlify will automatically build every time you push to your chosen branch.
+
+More info: https://docs.netlify.com/configure-builds/get-started
+
+### Vercel CI/CD
+
+(Similar feature is available on Vercel but I haven’t got round to trying it. PR welcome.)
 
 ## Credits
 
