@@ -18,7 +18,7 @@ Read my introduction posts on DEV:
 - [master](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/master) — JungleJS + Storybook + Tailwind CSS
 - [with-async-data](https://github.com/ekafyi/junglejs-storybook-tailwind/tree/with-async-data) — master + async data fetching example
 
-## One-click deploy
+## Quick start
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fekafyi%2Fjunglejs-storybook-tailwind%2Ftree%2Fwith-async-data)
 
